@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode    //hello
 }) {
   return (
     <ClerkProvider>
@@ -23,6 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <ConfettiProvider />
           <ToastProvider />
+          
           {children}
         </body>
       </html>

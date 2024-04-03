@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode    //hello
+  children: React.ReactNode    
 }) {
   return (
     <ClerkProvider>
